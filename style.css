@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "poppins", "sans-serif";
+  background-color: hsl(0, 0%, 98%);
+}
+header {
+  margin: 0 auto;
+  max-width: 540px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 275;
+  color: rgba(77, 79, 98, 1);
+  left: 0%;
+  right: 0%;
+  top: calc(50% - 54px / 2 - 24px);
+  font-size: 36px;
+  letter-spacing: 0.25px;
+  margin-bottom: 0px;
+}
+h2 {
+  left: 0.45%;
+  right: 0.23%;
+  top: calc(50% - 54px / 2 + 27px);
+  font-weight: 600;
+  color: rgba(77, 79, 98, 1);
+  margin-bottom: 13px;
+  letter-spacing: 0.25px;
+  font-size: 36px;
+}
+
+p {
+  color: rgba(77, 79, 98, 1);
+  font-weight: 400;
+  opacity: 0.5;
+  line-height: 25px;
+  font-size: 15px;
+  letter-spacing: 0.104167px;
+  margin-left: 32px;
+  text-align: left;
+}
+p.header {
+  margin-right: 32px;
+  text-align: center;
+}
+h3 {
+  margin-left: 32px;
+  margin-top: 32px;
+  margin-bottom: 6px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  color: #4d4f62;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 32px 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+  margin-top: 60px;
+}
+.box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 15px 30px -11px rgba(131, 166, 210, 0.5);
+  height: 250px;
+  width: 350px;
+}
+
+.box-text {
+  text-align: left;
+}
+.box img {
+  display: block;
+  margin-bottom: 32px;
+  margin-top: 40px;
+  margin-right: 32px;
+  margin-left: auto;
+}
+.box1 {
+  border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.box2 {
+  border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.box3 {
+  border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.box4 {
+  border-top: 4px solid hsl(212, 86%, 64%);
+}
+
+.box-text h5 {
+  font-size: 20px;
+  color: hsl(234, 12%, 34%);
+  margin-bottom: 10px;
+}
+
+.box-container {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.box1,
+.box4 {
+  align-self: center;
+}
+@media only screen and (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  h1,
+  h2 {
+    font-size: 24px;
+  }
+  body {
+    font-size: 13px;
+  }
+  .box {
+    height: 222px;
+    width: 311px;
+    left: 0px;
+    top: 0px;
+    border-radius: 8px;
+  }
+  .box img {
+    margin-left: auto;
+    margin-right: 28px;
+    margin-top: 30px;
+    margin-bottom: 28px;
+    width: 57px;
+    height: auto;
+  }
+  h3 {
+    margin-left: 28px;
+    margin-top: 27px;
+    margin-bottom: 1px;
+  }
+  p {
+    margin-left: 28px;
+    height: 46px;
+  }
+}
